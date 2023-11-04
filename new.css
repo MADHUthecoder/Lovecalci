@@ -1,0 +1,60 @@
+body{
+    background-color: lightpink;
+    padding: 0;
+    height: 100%;
+
+}
+
+.container{
+    margin: 250px auto;
+    max-width: 500px;
+    border: 1px solid black;
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    background: linear-gradient(to bottom, lightblue, lightskyblue);
+    border-radius: 5px;
+    border-width: 2px;
+    box-shadow: 0 2px 10px black;
+}
+
+h1{
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: crimson;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#lform{
+    font-size: 18px;
+    width: 80%;
+    display: flexbox;
+    align-items: center;
+}
+
+input[type="text"]{
+    color: black;
+    font-size: 18px;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+}
+
+input[type="submit"]{
+    color: black;
+    background-color:lightgray;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background: whitesmoke;
+    color: crimson
+}
+
+#result{
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(91, 58, 222);
+}
+
